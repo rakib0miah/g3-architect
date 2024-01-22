@@ -1,7 +1,79 @@
+/* Work sens font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+/* shared styles */
+.button-primary{
+        border-radius: 8px;
+        background: #FF900E;
+        width: 180px;
+        height: 64px;
+}
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* header style */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 40px 240px;
+}
+
 /* navigation bar */
-.nav-bar{
+nav{
     display: flex;
-    align-content:space-around;
-    margin: 2px solid red;
-    
+   justify-content: space-between; 
+   align-items: center; 
+}
+.nav-title{
+    color:#131313;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+nav > ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner */
+.banner-title{
+    color:#131313;
+text-align: center;
+font-family: "Work Sans";
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.banner-content{
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-description{
+    color: #727272;
 }
