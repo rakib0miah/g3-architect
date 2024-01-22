@@ -1,0 +1,7 @@
+/* navigation bar */
+.nav-bar{
+    display: flex;
+    align-content:space-around;
+    margin: 2px solid red;
+    
+}
