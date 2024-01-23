@@ -7,6 +7,19 @@
         background: #FF900E;
         width: 180px;
         height: 64px;
+        color: #FFFFFF;
+        padding: 20px 25px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        border: none;
+        margin-top:32px;
+}
+
+.common-color{
+    color: #727272;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
 }
 
 *{
@@ -46,7 +59,7 @@ nav > ul {
 nav li{
     list-style: none;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
@@ -76,4 +89,61 @@ line-height: normal;
 }
 .banner-description{
     color: #727272;
+}
+.banner img {
+    width: 100%;
+    margin-top: 32px;
+}
+
+/* main section */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+section{
+    display: flex;
+    
+}
+
+.section-img{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.features{
+    align-items: center;
+    margin-left: 76px;
+    margin-top: 202px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+
+}
+.features-title{
+    color:#727272;
+    font-size: 2.89rem;
+    font-weight: 500;
+}
+
+.of-our{
+    color:  #131313;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.features-color{
+    color: #FF900E;
+    font-size: 2.6rem;
+    font-weight: 700;
+
+}
+/* .features-description{ */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    width: 537px;
+
 }

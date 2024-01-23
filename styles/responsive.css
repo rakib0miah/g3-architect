@@ -1,0 +1,39 @@
+/* mobile devices */
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav, .team-container{
+        flex-direction: column;
+        margin-left:8% ;
+    }
+    .section-img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .features{
+        margin-left: -5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+    }
+}
+
+
+
+
+
+/* Tablet or Medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav, .team-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+    header{
+        padding:50px;
+    }
+    
+}
